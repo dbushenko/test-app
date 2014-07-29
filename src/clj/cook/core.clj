@@ -26,9 +26,9 @@
   (route/not-found "Not found!"))
 
 (defn -main [& args]
-  (let [servlet (create-servlet all-routes)]
-                 ;; (-> all-routes
-                 ;;     wrap-session
-                 ;;     reload/wrap-reload))]
+  (let [servlet (create-servlet 
+                 (-> all-routes
+                     wrap-session
+                     reload/wrap-reload))]
     (run servlet
       :host "0.0.0.0" :port "8080" :path "/")))
