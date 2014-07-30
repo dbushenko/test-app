@@ -10,10 +10,10 @@
                  [cheshire "5.3.1"]
                  [org.clojure/tools.logging "0.3.0"]
                  [org.slf4j/slf4j-simple "1.7.7"]
-                 [org.immutant/scheduling "2.x.incremental.186"]
-                 [org.immutant/caching "2.x.incremental.186"]
-                 [org.immutant/messaging "2.x.incremental.186"]
-                 [org.immutant/web "2.x.incremental.186"]]
+                 [org.immutant/scheduling "2.x.incremental.188"]
+                 [org.immutant/caching "2.x.incremental.188"]
+                 [org.immutant/messaging "2.x.incremental.188"]
+                 [org.immutant/web "2.x.incremental.188"]]
   :repositories [["Immutant 2.x incremental builds"
                   "http://downloads.immutant.org/incremental/"]]
 
