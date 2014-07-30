@@ -2,17 +2,12 @@
 <html lang="ru" ng-app="mainApp">
   <head>
     <meta charset="UTF-8" />
-    <script src="/bower_components/angular/angular.js"></script>
-    <script src="/bower_components/angular-route/angular-route.min.js"></script>
-    <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
-    <script src="/bower_components/angular-messages/angular-messages.min.js"></script>
-    <script src="/bower_components/angular-websocket/angular-websocket.js"></script>
-
-    <script src="/js/app/app.js"></script>
-    <script src="/js/app/controllers/appController.js"></script>
-
   </head>
-  <body ng-controller="AppCtrl">
+  <body>
 
+    <script>
+     var c = new WebSocket('ws://localhost:8080');
+    </script>
+    
   </body>
 </html>
